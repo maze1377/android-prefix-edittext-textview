@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    <com.maze.prefix.PrefixView
+        android:layout_margin="5dp"
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1111"
+        android:gravity="right|center_vertical"
+        android:text="مهدی اکبری زرکش"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textColorHint="@color/colorPrimary"
+        app:prefix=" نام کاربری: "
+        app:res="@drawable/boy" />
+    <com.maze.prefix.PrefixView
+        android:layout_margin="5dp"
+        android:id="@+id/textview4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1111"
+        android:gravity="right|center_vertical"
+        android:text="امیرحیسن ابراهیمی"
+        android:textColorHint="#FF80AB"
+        android:textSize="18sp"
+        app:prefix=" نام مدیر: "
+        android:textColor="#00E676"
+        app:res="@drawable/refer" />
+    <com.maze.prefix.PrefixView
+        android:layout_margin="5dp"
+        android:id="@+id/textview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1111"
+        android:gravity="right|center_vertical"
+        android:text="1398/09/23"
+        android:textColorHint="#567"
+        android:textSize="18sp"
+        app:prefix=" تاریخ عضویت: "
+        android:textColor="#D500F9"
+        app:res="@drawable/term" />
+
+</LinearLayout>
