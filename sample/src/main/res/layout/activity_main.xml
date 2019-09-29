@@ -7,9 +7,9 @@
     android:orientation="vertical"
     android:padding="16dp"
     tools:context=".MainActivity">
-    <com.maze.prefix.PrefixView
+    <com.maze.prefix.PrefixTextView
         android:layout_margin="5dp"
-        android:id="@+id/textview2"
+        android:id="@+id/proflie"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#1111"
@@ -20,7 +20,7 @@
         android:textColorHint="@color/colorPrimary"
         app:prefix=" نام کاربری: "
         app:res="@drawable/boy" />
-    <com.maze.prefix.PrefixView
+    <com.maze.prefix.PrefixTextView
         android:layout_margin="5dp"
         android:id="@+id/textview4"
         android:layout_width="match_parent"
@@ -33,7 +33,7 @@
         app:prefix=" نام مدیر: "
         android:textColor="#00E676"
         app:res="@drawable/refer" />
-    <com.maze.prefix.PrefixView
+    <com.maze.prefix.PrefixTextView
         android:layout_margin="5dp"
         android:id="@+id/textview3"
         android:layout_width="match_parent"

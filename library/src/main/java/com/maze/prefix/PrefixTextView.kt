@@ -16,7 +16,7 @@ import androidx.core.content.res.ResourcesCompat
 import com.maze.library.R
 
 
-class PrefixView @JvmOverloads constructor(
+class PrefixTextView @JvmOverloads constructor(
         context: Context,
         attrs: AttributeSet,
         defStyle: Int = 0

@@ -1,11 +1,15 @@
 
 # android-prefix-textView and editView
 EditText and TextView with support for non editable prefix and image.
+![Sample Screenshot](https://github.com/maze1377/android-prefix-edittext-textview/raw/master/screenshots/sample.png)
+
+#get more performance and low memory
+![Sample Details](https://github.com/maze1377/android-prefix-edittext-textview/raw/master/screenshots/sample.png)
 
 ## Howto?
 Either directly via xml:
 ```xml
-<com.maze.prefix.PrefixView
+<com.maze.prefix.PrefixTextView
         android:layout_margin="5dp"
         android:id="@+id/textview3"
         android:layout_width="match_parent"
@@ -34,7 +38,7 @@ edit_text.setHintTextColor(Color.GREEN)
 edit_text.drawable = avatar
 
 ```
-See  [sample code]
+See  [sample code](https://github.com/maze1377/android-prefix-edittext-textview/blob/master/app/src/main/java/com/tobiasschuerg/sample/MainActivity.kt).
 
 ## Add as Library
 Step 1. Add the JitPack repository to your build file  
@@ -53,4 +57,5 @@ Step 2. Add the dependency
  		implementation 'com.github.maze1377:android-prefix-edittext-textview:lastVerstion'
 	}
 ```
+current lastVerstion=1.0
 
