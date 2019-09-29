@@ -50,7 +50,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 ```
 	dependencies {
-		implementation 'com.github.maze:android-prefix-edittext-textview:lastversion'
+ 		implementation 'com.github.maze1377:android-prefix-edittext-textview:lastVerstion'
 	}
 ```
 
