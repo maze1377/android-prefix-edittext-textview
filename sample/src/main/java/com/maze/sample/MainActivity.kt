@@ -13,12 +13,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val drawable = ResourcesCompat.getDrawable(resources, R.drawable.boy, null)
-
+        
         val profile: PrefixTextView = findViewById(R.id.proflie)
 
-        profile.prefix="نام مستعار: "
-        profile.setHintTextColor(Color.BLUE) //change color
-        profile.drawable=drawable
+        profile.prefix="نام مستعار: "// set name
+        profile.setHintTextColor(Color.BLUE) //change color prefix
+        profile.drawable=drawable//set predrawable
 
     }
 }

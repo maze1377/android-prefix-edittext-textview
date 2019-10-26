@@ -4,7 +4,7 @@ EditText and TextView with support for non editable prefix and image.
 ![Sample Screenshot](https://github.com/maze1377/android-prefix-edittext-textview/raw/master/screenshots/sample.png)
 
 #get more performance and low memory
-![Sample Details](https://github.com/maze1377/android-prefix-edittext-textview/raw/master/screenshots/details.jpn)
+![Sample Details](https://github.com/maze1377/android-prefix-edittext-textview/raw/master/screenshots/details.jpg)
 
 ## Howto?
 Either directly via xml:
@@ -57,5 +57,5 @@ Step 2. Add the dependency
  		implementation 'com.github.maze1377:android-prefix-edittext-textview:lastVerstion'
 	}
 ```
-current lastVerstion=1.0
+current lastVerstion=1.1.1
 

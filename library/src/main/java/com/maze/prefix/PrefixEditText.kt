@@ -49,6 +49,7 @@ class PrefixEditText @JvmOverloads constructor(
             prefixDrawable.drawable = value
             updatePrefixDrawable()
         }
+
     // These are used to store details obtained from the EditText's rendering process
     private val firstLineBounds = Rect()
 
@@ -88,6 +89,7 @@ class PrefixEditText @JvmOverloads constructor(
         super.onDraw(c)
     }
 
+    
     private fun updatePrefixDrawable() {
         setCompoundDrawablesRelative(prefixDrawable, null, null, null)
     }

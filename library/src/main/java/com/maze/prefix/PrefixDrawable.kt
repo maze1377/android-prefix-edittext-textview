@@ -12,15 +12,16 @@ import kotlin.properties.Delegates
 // It is a drawable for rendering text and image
 internal class PrefixDrawable(
         var paint: Paint,
-        val paddImage: Int = 5,
+        val paddImage: Int = 5,//todo change to dp 
         var lineBounds: Int = 0
 ) : Drawable() {
-
+    //save prefix txt
     var text: String by Delegates.observable("") { _, _: String?, _: String? ->
         // Tell it we need to be as big as we want to be!
         setBounds(0, 0, intrinsicWidth, intrinsicHeight)
         invalidateSelf()
     }
+    //save picture for draw
     var drawable: Drawable? by Delegates.observable(null) { _, _: Drawable?, _: Drawable? ->
         // Tell it we need to be as big as we want to be!
         setBounds(0, 0, intrinsicWidth, intrinsicHeight)
@@ -58,7 +59,7 @@ internal class PrefixDrawable(
 
     override fun getIntrinsicWidth(): Int {
         if (drawable !=null)
-            return paint.measureText(text).toInt() + intrinsicHeight + paddImage
+            return paint.measureText(text).toInt() + intrinsicHeight + paddImage //if drawable exit the width have to be biger
         else
             return paint.measureText(text).toInt()
     }
